@@ -1,5 +1,9 @@
 {
 .appVersion = "85";
+DisplayStrings = (
+"5",
+"4215358905"
+);
 copyright = "Copyright © 2019 by typesprite";
 customParameters = (
 {
@@ -26111,7 +26115,7 @@ unicode = 0030;
 },
 {
 glyphname = one;
-lastChange = "2019-04-22 14:19:22 +0000";
+lastChange = "2019-05-19 13:08:43 +0000";
 layers = (
 {
 components = (
@@ -26167,14 +26171,10 @@ unicode = 0031;
 },
 {
 glyphname = two;
-lastChange = "2019-04-19 21:23:20 +0000";
+lastChange = "2019-05-19 13:05:30 +0000";
 layers = (
 {
 components = (
-{
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 448}";
-},
 {
 name = pixel;
 transform = "{1, 0, 0, 1, 64, 448}";
@@ -26185,30 +26185,27 @@ transform = "{1, 0, 0, 1, 128, 448}";
 },
 {
 name = pixel;
-transform = "{1, 0, 0, 1, 192, 384}";
+transform = "{1, 0, 0, 1, 192, 448}";
 },
 {
 name = pixel;
-transform = "{1, 0, 0, 1, 192, 320}";
+transform = "{1, 0, 0, 1, 256, 384}";
 },
 {
 name = pixel;
-transform = "{1, 0, 0, 1, 128, 256}";
+transform = "{1, 0, 0, 1, 256, 320}";
 },
 {
 name = pixel;
-transform = "{1, 0, 0, 1, 64, 192}";
+transform = "{1, 0, 0, 1, 192, 256}";
 },
 {
 name = pixel;
-transform = "{1, 0, 0, 1, 0, 128}";
+transform = "{1, 0, 0, 1, 128, 192}";
 },
 {
 name = pixel;
-transform = "{1, 0, 0, 1, 0, 64}";
-},
-{
-name = pixel;
+transform = "{1, 0, 0, 1, 64, 128}";
 },
 {
 name = pixel;
@@ -26221,24 +26218,35 @@ transform = "{1, 0, 0, 1, 128, 0}";
 {
 name = pixel;
 transform = "{1, 0, 0, 1, 192, 0}";
+},
+{
+name = pixel;
+transform = "{1, 0, 0, 1, 256, 0}";
+},
+{
+name = pixel;
+transform = "{1, 0, 0, 1, 0, 384}";
+},
+{
+name = pixel;
+transform = "{1, 0, 0, 1, 0, 64}";
+},
+{
+name = pixel;
 }
 );
 layerId = "635BFDFE-DA51-4E93-8F26-87D37857E554";
-width = 320;
+width = 384;
 }
 );
 unicode = 0032;
 },
 {
 glyphname = three;
-lastChange = "2019-04-19 21:23:32 +0000";
+lastChange = "2019-05-19 13:05:53 +0000";
 layers = (
 {
 components = (
-{
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 448}";
-},
 {
 name = pixel;
 transform = "{1, 0, 0, 1, 64, 448}";
@@ -26249,11 +26257,19 @@ transform = "{1, 0, 0, 1, 128, 448}";
 },
 {
 name = pixel;
-transform = "{1, 0, 0, 1, 192, 384}";
+transform = "{1, 0, 0, 1, 192, 448}";
 },
 {
 name = pixel;
-transform = "{1, 0, 0, 1, 192, 320}";
+transform = "{1, 0, 0, 1, 256, 384}";
+},
+{
+name = pixel;
+transform = "{1, 0, 0, 1, 256, 320}";
+},
+{
+name = pixel;
+transform = "{1, 0, 0, 1, 192, 256}";
 },
 {
 name = pixel;
@@ -26261,19 +26277,19 @@ transform = "{1, 0, 0, 1, 128, 256}";
 },
 {
 name = pixel;
-transform = "{1, 0, 0, 1, 64, 256}";
+transform = "{1, 0, 0, 1, 256, 192}";
 },
 {
 name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
+transform = "{1, 0, 0, 1, 256, 128}";
 },
 {
 name = pixel;
-transform = "{1, 0, 0, 1, 192, 128}";
+transform = "{1, 0, 0, 1, 256, 64}";
 },
 {
 name = pixel;
-transform = "{1, 0, 0, 1, 192, 64}";
+transform = "{1, 0, 0, 1, 192, 0}";
 },
 {
 name = pixel;
@@ -26285,17 +26301,22 @@ transform = "{1, 0, 0, 1, 64, 0}";
 },
 {
 name = pixel;
+transform = "{1, 0, 0, 1, 0, 384}";
+},
+{
+name = pixel;
+transform = "{1, 0, 0, 1, 0, 64}";
 }
 );
 layerId = "635BFDFE-DA51-4E93-8F26-87D37857E554";
-width = 320;
+width = 384;
 }
 );
 unicode = 0033;
 },
 {
 glyphname = four;
-lastChange = "2019-04-19 21:23:44 +0000";
+lastChange = "2019-05-19 13:07:29 +0000";
 layers = (
 {
 components = (
@@ -26349,10 +26370,6 @@ transform = "{1, 0, 0, 1, 0, 128}";
 },
 {
 name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-name = pixel;
 transform = "{1, 0, 0, 1, 0, 256}";
 },
 {
@@ -26362,6 +26379,10 @@ transform = "{1, 0, 0, 1, 64, 320}";
 {
 name = pixel;
 transform = "{1, 0, 0, 1, 128, 384}";
+},
+{
+name = pixel;
+transform = "{1, 0, 0, 1, 0, 192}";
 }
 );
 layerId = "635BFDFE-DA51-4E93-8F26-87D37857E554";
@@ -26372,14 +26393,10 @@ unicode = 0034;
 },
 {
 glyphname = five;
-lastChange = "2019-04-19 21:23:57 +0000";
+lastChange = "2019-05-19 13:11:38 +0000";
 layers = (
 {
 components = (
-{
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 256}";
-},
 {
 name = pixel;
 transform = "{1, 0, 0, 1, 0, 320}";
@@ -26406,26 +26423,6 @@ transform = "{1, 0, 0, 1, 192, 448}";
 },
 {
 name = pixel;
-transform = "{1, 0, 0, 1, 64, 256}";
-},
-{
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 256}";
-},
-{
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
-},
-{
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 128}";
-},
-{
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 64}";
-},
-{
-name = pixel;
 transform = "{1, 0, 0, 1, 128, 0}";
 },
 {
@@ -26434,10 +26431,46 @@ transform = "{1, 0, 0, 1, 64, 0}";
 },
 {
 name = pixel;
+transform = "{1, 0, 0, 1, 256, 192}";
+},
+{
+name = pixel;
+transform = "{1, 0, 0, 1, 256, 128}";
+},
+{
+name = pixel;
+transform = "{1, 0, 0, 1, 256, 64}";
+},
+{
+name = pixel;
+transform = "{1, 0, 0, 1, 192, 0}";
+},
+{
+name = pixel;
+transform = "{1, 0, 0, 1, 0, 256}";
+},
+{
+name = pixel;
+transform = "{1, 0, 0, 1, 256, 448}";
+},
+{
+name = pixel;
+transform = "{1, 0, 0, 1, 64, 256}";
+},
+{
+name = pixel;
+transform = "{1, 0, 0, 1, 128, 256}";
+},
+{
+name = pixel;
+transform = "{1, 0, 0, 1, 192, 256}";
+},
+{
+name = pixel;
 }
 );
 layerId = "635BFDFE-DA51-4E93-8F26-87D37857E554";
-width = 320;
+width = 384;
 }
 );
 unicode = 0035;
@@ -26756,7 +26789,7 @@ unicode = 0039;
 },
 {
 glyphname = onesuperior;
-lastChange = "2019-04-19 21:25:57 +0000";
+lastChange = "2019-05-19 13:12:50 +0000";
 layers = (
 {
 components = (
@@ -26779,6 +26812,10 @@ transform = "{1, 0, 0, 1, 64, 256}";
 {
 name = pixel;
 transform = "{1, 0, 0, 1, 0, 384}";
+},
+{
+name = pixel;
+transform = "{1, 0, 0, 1, 64, 192}";
 }
 );
 layerId = "635BFDFE-DA51-4E93-8F26-87D37857E554";
@@ -26790,7 +26827,7 @@ unicode = 00B9;
 },
 {
 glyphname = twosuperior;
-lastChange = "2019-04-19 21:26:20 +0000";
+lastChange = "2019-05-19 13:12:46 +0000";
 layers = (
 {
 components = (
@@ -26816,11 +26853,15 @@ transform = "{1, 0, 0, 1, 0, 256}";
 },
 {
 name = pixel;
-transform = "{1, 0, 0, 1, 64, 256}";
+transform = "{1, 0, 0, 1, 0, 192}";
 },
 {
 name = pixel;
-transform = "{1, 0, 0, 1, 128, 256}";
+transform = "{1, 0, 0, 1, 64, 192}";
+},
+{
+name = pixel;
+transform = "{1, 0, 0, 1, 128, 192}";
 }
 );
 layerId = "635BFDFE-DA51-4E93-8F26-87D37857E554";
