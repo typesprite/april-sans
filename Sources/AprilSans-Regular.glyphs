@@ -1,5 +1,9 @@
 {
-.appVersion = "99";
+.appVersion = "113";
+DisplayStrings = (
+"Á",
+B
+);
 copyright = "Copyright © 2019 by typesprite";
 customParameters = (
 {
@@ -38,6 +42,7 @@ value = "SIL Open Font License 1.1";
 );
 date = "2019-04-19 11:19:15 +0000";
 designer = typesprite;
+designerURL = "https://github.com/typesprite";
 familyName = AprilSans;
 featurePrefixes = (
 {
